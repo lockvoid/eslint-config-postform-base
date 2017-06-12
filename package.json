@@ -1,16 +1,16 @@
 {
-  "name": "eslint-config-postform",
-  "description": "An eslint config we use in Postform",
+  "name": "eslint-config-postform-base",
+  "description": "An eslint config we use for Node-based applications in Postform",
   "homepage": "https://postform.io",
-  "version": "0.1.8",
+  "version": "0.2.0",
   "license": "MIT",
   "main": "src/index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/postform/eslint-config-postform.git"
+    "url": "git+https://github.com/postform/eslint-config-postform-base.git"
   },
   "scripts": {
-    "lint:js": "eslint . --config src/index.js",
+    "lint:js": "eslint src --config src/index.js",
     "lint:js:fix": "yarn run lint:js -- --fix"
   },
   "dependencies": {
